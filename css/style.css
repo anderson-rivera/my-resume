@@ -10,6 +10,7 @@
 }
 ul{
     list-style: none;
+    padding-left: 0;
 }
 a{
     text-decoration: none;
@@ -91,4 +92,62 @@ header{
     bottom: 0.6rem;
     background: #fff;
 
+}
+
+/* Info section */
+
+.sec1 .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 .title .dyd h1{
+    font-size: 2.5rem;
+}
+
+.sec1 .title .case{
+    padding-right: 8px;
+}
+.sec1 .title .case i{
+    font-size: 1.8rem;
+}
+
+.sec1 .arrow-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+.sec1 .arrow-down i{
+    font-size: 2.5rem;
+}
+
+/* Skills */
+.skils-title{
+    text-align: center;
+}
+.skils-title h2{
+    margin-bottom: 1.8rem;
+}
+/* info */
+.info-title{
+    border-left: 1px solid red;
+}
+.info-title h2{
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+.info-title .info-lyst{
+    padding-left: 8rem;
+    font-size: 1.3rem;
+}
+.info-title .info-lyst ul{
+    text-align: start;
+}
+.info-title .info-lyst ul li, .info-title .info-lyst ul li i{
+    font-weight: 800;
+}
+.info-title .info-lyst ul li p{
+    display: inline-block;
+    font-weight: 400;
 }
