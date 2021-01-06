@@ -33,7 +33,7 @@ header{
     justify-content: center;
     align-items: center;
     position: absolute;
-    background:url(../media/img/hero.png) center no-repeat;
+    background:url(../media/img/hero.jpg) center no-repeat;
     background-size: cover;
 }
 .mail-picture{
@@ -72,9 +72,6 @@ header{
     color: #fff;
     font-size: 1.2rem;
 }
-
-
-
 
 /* Picture */
 .mail-picture .picture {
@@ -225,3 +222,142 @@ header{
     margin-top: 6rem;
 }
 /*social networks*/
+.networks-title{
+    margin-top: 3rem;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.social-icons ul{
+    margin-bottom: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons ul li{
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+}
+.social-icons ul li a{
+    font-size: 4rem;
+}
+
+.div-decoration1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.div-decoration1 span{
+    width: 140px;
+    height: 6px;
+    background: red;
+    border-radius: 10px;
+}
+
+/* contact */
+.contact-by{
+    width: 100%;
+    height: auto;
+}
+.contact-by h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.div-decoration2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.div-decoration2 span{
+    width: 6px;
+    height: 35px;
+    background: red;
+    border-radius: 10px;
+}
+
+/* second gmail btn */
+.mail-2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail-2 button.mail{
+    width: auto;
+    height: auto;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid #000;
+}
+/*gmail logo*/
+.mail-2 button.mail .logo-mail{
+   padding-left: 15px;
+}
+.mail-2 button.mail .logo-mail img{
+    width: 40px;
+    height: auto;
+    display: block;
+    margin-right: 7px;
+}
+.mail-2 button.mail .dir{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+.mail-2 button.mail .dir p{
+    margin: 0;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* qr code */
+.qr-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.qr-container .qr-text h4{
+    font-weight: 400;
+}
+.qr-container .qr-image img{
+    width: 185px;
+}
+
+/* footer - skew */
+footer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+footer .skew2{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    transform: skewY(-3deg);
+    margin: 6.4rem 0 1rem 0;
+}
+footer h3{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
