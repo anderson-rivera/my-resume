@@ -17,6 +17,10 @@ a{
 }
 
 /* Start */
+/* set family font */
+body{
+    font-family: 'Mulish', sans-serif;
+}
 header{
     width: 100%;
     height: 160px;
@@ -71,6 +75,7 @@ header{
     margin: 0;
     color: #fff;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 /* Picture */
@@ -82,6 +87,7 @@ header{
 }
 .mail-picture .picture img{
     width: 155px;
+    box-shadow: -3px 4px 43px -23px rgba(0,0,0,0.88);
 }
 
 
@@ -104,6 +110,8 @@ header{
 }
 .sec1 .title .dyd h1{
     font-size: 2.5rem;
+    color: #1012DE;
+    font-weight: 500;
 }
 
 .sec1 .title .case{
@@ -111,6 +119,7 @@ header{
 }
 .sec1 .title .case i{
     font-size: 1.8rem;
+    color: #1D3AF5;
 }
 
 .sec1 .arrow-down{
@@ -121,6 +130,7 @@ header{
 }
 .sec1 .arrow-down i{
     font-size: 2.5rem;
+    color: #126CFF;
 }
 
 /* Skills */
@@ -129,6 +139,11 @@ header{
 }
 .skills-title h2{
     margin-bottom: 1.8rem;
+    color: #1012DE;
+    font-weight: 500;
+}
+.skills-title h2 span{
+    text-decoration: underline;
 }
 .skills-title .skills-lyst{
     max-height: 16.5rem;
@@ -139,20 +154,27 @@ header{
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 600;
+    color: #126CFF;
 }
 .skills-title .plus{
     margin-top: 0.8rem;
 }
 .skills-title .plus i{
     font-size: 1.8rem;
+    color: #126CFF;
 }
 /* info */
 .info-title{
-    border-left: 2px solid red;
+    border-left: 2px solid #bababe;
 }
 .info-title h2{
     text-align: center;
     margin-bottom: 1.8rem;
+    color: #1012DE;
+    font-weight: 500;
+}
+.info-title h2 span{
+    text-decoration: underline;
 }
 .info-title .info-lyst{
     display: flex;
@@ -163,11 +185,14 @@ header{
     text-align: start;
 }
 .info-title .info-lyst ul li, .info-title .info-lyst ul li i{
+    font-size: 1.4rem;
     font-weight: 800;
+    color: #1012DE;
 }
 .info-title .info-lyst ul li p{
     display: inline-block;
-    font-weight: 400;
+    font-weight: 500;
+    color: #000;
 }
 
 /* Employment */
@@ -179,6 +204,13 @@ header{
     justify-content: center;
     align-items: center;
     margin-bottom: 2.3rem;
+    color: #1012DE;
+}
+.employ-title h2{
+    font-weight: 500;
+}
+.employ-title h2 span{
+    text-decoration: underline;
 }
 .employ-title .right-arrow{
     padding-right: 0.3rem;
@@ -192,17 +224,23 @@ header{
 }
 .feed h3{
     margin-bottom: 0.6rem;
+    color: #1012DE;
+    font-weight: 600;
 }
 .feed p{
     font-size: 1.3rem;
+    font-weight: 500;
     text-align: justify;
+    color: #000;
 }
 .feed span{
     font-size: 1.1rem;
+    color: #8c8a99;
 }
 .feed p.date{
     font-size: 1.1rem;
     text-transform: uppercase;
+    color: #8c8a99;
 }
 /* img */
 .image-brand{
@@ -217,13 +255,20 @@ header{
 .skew{
     width: 100%;
     height: 43px;
-    background: red;
+    background: #126CFF;
     transform: skew(0deg, 3deg);
     margin-top: 6rem;
 }
 /*social networks*/
 .networks-title{
     margin-top: 3rem;
+}
+.networks-title h2{
+    color: #1012DE;
+    font-weight: 500;
+}
+.networks-title h2 span{
+    text-decoration: underline;
 }
 .social-icons{
     display: flex;
@@ -245,6 +290,7 @@ header{
 }
 .social-icons ul li a{
     font-size: 4rem;
+    color: #000000;
 }
 
 .div-decoration1{
@@ -257,8 +303,8 @@ header{
 }
 .div-decoration1 span{
     width: 140px;
-    height: 6px;
-    background: red;
+    height: 3px;
+    background: #bababe;
     border-radius: 10px;
 }
 
@@ -270,6 +316,7 @@ header{
 .contact-by h3{
     text-align: center;
     font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 2rem;
 }
 .div-decoration2{
@@ -281,9 +328,9 @@ header{
     margin-bottom: 2rem;
 }
 .div-decoration2 span{
-    width: 6px;
+    width: 3px;
     height: 35px;
-    background: red;
+    background: #bababe;
     border-radius: 10px;
 }
 
@@ -323,7 +370,7 @@ header{
     margin: 0;
     color: #000;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* qr code */
@@ -352,12 +399,11 @@ footer .skew2{
     width: 100%;
     height: 50px;
     background: #000;
-    transform: skewY(-3deg);
     margin: 6.4rem 0 1rem 0;
 }
 footer h3{
     margin-bottom: 0;
     text-align: center;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 500;
 }
