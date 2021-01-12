@@ -50,12 +50,15 @@ header{
 .mail-picture button.mail{
     width: auto;
     height: auto;
-    background: none;
+    background: #054887;
+    border-radius: 5px;
+    padding: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid #fff;
 }
+
+
 /*gmail logo*/
 .mail-picture button.mail .logo-mail{
    padding-left: 15px;
@@ -110,17 +113,18 @@ header{
 }
 .sec1 .title .dyd h1{
     font-size: 2.5rem;
-    color: #1012DE;
+    color: #06579E;
     font-weight: 500;
 }
 
 .sec1 .title .case{
-    padding-right: 8px;
+    padding-right: 0.5rem;
 }
 .sec1 .title .case i{
     font-size: 1.8rem;
-    color: #1D3AF5;
+    color:  #06579E;
 }
+
 
 .sec1 .arrow-down{
     display: flex;
@@ -130,7 +134,7 @@ header{
 }
 .sec1 .arrow-down i{
     font-size: 2.5rem;
-    color: #126CFF;
+    color: #054887;
 }
 
 /* Skills */
@@ -139,7 +143,7 @@ header{
 }
 .skills-title h2{
     margin-bottom: 1.8rem;
-    color: #1012DE;
+    color: #054887;
     font-weight: 500;
 }
 .skills-title h2 span{
@@ -154,14 +158,14 @@ header{
     font-size: 1.3rem;
     text-transform: uppercase;
     font-weight: 600;
-    color: #126CFF;
+    color: #0870D1;
 }
 .skills-title .plus{
     margin-top: 0.8rem;
 }
 .skills-title .plus i{
     font-size: 1.8rem;
-    color: #126CFF;
+    color: #054887;
 }
 /* info */
 .info-title{
@@ -170,7 +174,7 @@ header{
 .info-title h2{
     text-align: center;
     margin-bottom: 1.8rem;
-    color: #1012DE;
+    color: #054887;
     font-weight: 500;
 }
 .info-title h2 span{
@@ -187,14 +191,13 @@ header{
 .info-title .info-lyst ul li, .info-title .info-lyst ul li i{
     font-size: 1.4rem;
     font-weight: 800;
-    color: #1012DE;
+    color: #0870D1;
 }
 .info-title .info-lyst ul li p{
     display: inline-block;
     font-weight: 500;
-    color: #000;
+    color: #000; /*#06579*/
 }
-
 /* Employment */
 .sec2{
     margin-top: 4rem;
@@ -204,7 +207,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-bottom: 2.3rem;
-    color: #1012DE;
+    color:#054887;
 }
 .employ-title h2{
     font-weight: 500;
@@ -224,7 +227,7 @@ header{
 }
 .feed h3{
     margin-bottom: 0.6rem;
-    color: #1012DE;
+    color: #0870D1;
     font-weight: 600;
 }
 .feed p{
@@ -255,7 +258,7 @@ header{
 .skew{
     width: 100%;
     height: 43px;
-    background: #126CFF;
+    background: #054887;
     transform: skew(0deg, 3deg);
     margin-top: 6rem;
 }
@@ -264,7 +267,7 @@ header{
     margin-top: 3rem;
 }
 .networks-title h2{
-    color: #1012DE;
+    color: #054887;
     font-weight: 500;
 }
 .networks-title h2 span{
@@ -291,6 +294,11 @@ header{
 .social-icons ul li a{
     font-size: 4rem;
     color: #000000;
+    transition: all .2s;
+}
+/*hover*/
+.shadow-pop-bl:hover{
+    color: #054887;
 }
 
 .div-decoration1{
@@ -345,12 +353,14 @@ header{
 .mail-2 button.mail{
     width: auto;
     height: auto;
-    background: none;
+    background: #054887;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid #000;
+    padding: 2px;
 }
+
 /*gmail logo*/
 .mail-2 button.mail .logo-mail{
    padding-left: 15px;
@@ -368,7 +378,7 @@ header{
 }
 .mail-2 button.mail .dir p{
     margin: 0;
-    color: #000;
+    color: #fff;
     font-size: 1.4rem;
     font-weight: 500;
 }
@@ -398,7 +408,7 @@ footer{
 footer .skew2{
     width: 100%;
     height: 50px;
-    background: #000;
+    background: #054887;
     margin: 6.4rem 0 1rem 0;
 }
 footer h3{
@@ -407,3 +417,101 @@ footer h3{
     font-size: 1.3rem;
     font-weight: 500;
 }
+
+
+
+/*mediaquery*/
+@media only screen and (max-width: 1024px){
+    .mail-picture button.mail:hover{
+    background: none;
+    border: 3px solid #fff;
+}
+}
+
+@media only screen and (min-width: 1240px) {
+    /*effect hover for social icons*/
+  .shadow-pop-bl:hover{
+    color: #054887;
+    -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 2) both;
+}
+
+/* btn gmail*/
+.mail-picture .mail:hover {
+	-webkit-animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.mail-2 .mail:hover {
+	-webkit-animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-2-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+}
+
+
+
+
+/*keyframes*/
+
+/* social icons */
+@-webkit-keyframes shadow-pop-bl {
+  0% {
+    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+    -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
+  }
+}
+@keyframes shadow-pop-bl {
+  0% {
+    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+            box-shadow: -1px 1px #3e3e3e, -2px 2px #3e3e3e, -3px 3px #3e3e3e, -4px 4px #3e3e3e, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #3e3e3e;
+    -webkit-transform: translateX(8px) translateY(-8px);
+            transform: translateX(8px) translateY(-8px);
+  }
+}
+
+
+/* second btn gmail */
+@-webkit-keyframes shadow-drop-2-bottom {
+  0% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px) translateY(-12px);
+            transform: translateZ(50px) translateY(-12px);
+    -webkit-box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-bottom {
+  0% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px) translateY(-12px);
+            transform: translateZ(50px) translateY(-12px);
+    -webkit-box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+  }
+}
+
