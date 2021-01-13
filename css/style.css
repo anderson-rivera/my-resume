@@ -56,6 +56,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    -webkit-animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
@@ -110,6 +113,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-animation: slide-right 1.5s ease-out both;
+	        animation: slide-right 1.5s ease-out both;
 }
 .sec1 .title .dyd h1{
     font-size: 2.5rem;
@@ -135,6 +140,8 @@ header{
 .sec1 .arrow-down i{
     font-size: 2.5rem;
     color: #054887;
+	-webkit-animation: slide-right 1s ease-out both;
+	        animation: slide-right 1s ease-out both;
 }
 
 /* Skills */
@@ -145,6 +152,9 @@ header{
     margin-bottom: 1.8rem;
     color: #054887;
     font-weight: 500;
+
+    -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .skills-title h2 span{
     text-decoration: underline;
@@ -159,6 +169,9 @@ header{
     text-transform: uppercase;
     font-weight: 600;
     color: #0870D1;
+
+    -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .skills-title .plus{
     margin-top: 0.8rem;
@@ -166,6 +179,9 @@ header{
 .skills-title .plus i{
     font-size: 1.8rem;
     color: #054887;
+
+    -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 /* info */
 .info-title{
@@ -176,6 +192,9 @@ header{
     margin-bottom: 1.8rem;
     color: #054887;
     font-weight: 500;
+
+    -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .info-title h2 span{
     text-decoration: underline;
@@ -192,15 +211,23 @@ header{
     font-size: 1.4rem;
     font-weight: 800;
     color: #0870D1;
+
+    -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .info-title .info-lyst ul li p{
     display: inline-block;
     font-weight: 500;
     color: #000; /*#06579*/
+
+    -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 /* Employment */
 .sec2{
     margin-top: 4rem;
+    background: rgb(247, 244, 244);
+    padding: 2rem 0;
 }
 .employ-title{
     display: flex;
@@ -211,6 +238,9 @@ header{
 }
 .employ-title h2{
     font-weight: 500;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .employ-title h2 span{
     text-decoration: underline;
@@ -220,6 +250,9 @@ header{
 }
 .employ-title .right-arrow i{
     font-size: 1.3rem;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 /* feed */
 .feed{
@@ -229,21 +262,33 @@ header{
     margin-bottom: 0.6rem;
     color: #0870D1;
     font-weight: 600;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .feed p{
     font-size: 1.3rem;
     font-weight: 500;
     text-align: justify;
     color: #000;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-.feed span{
+.feed p.extra-detail{
     font-size: 1.1rem;
     color: #8c8a99;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .feed p.date{
     font-size: 1.1rem;
     text-transform: uppercase;
     color: #8c8a99;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 /* img */
 .image-brand{
@@ -252,6 +297,9 @@ header{
 }
 .image-brand img{
     max-width: 37%;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /*  skew div */
@@ -269,6 +317,9 @@ header{
 .networks-title h2{
     color: #054887;
     font-weight: 500;
+
+    -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .networks-title h2 span{
     text-decoration: underline;
@@ -326,6 +377,9 @@ header{
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
+
+    -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .div-decoration2{
     width: 100%;
@@ -394,6 +448,9 @@ header{
 }
 .qr-container .qr-text h4{
     font-weight: 400;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .qr-container .qr-image img{
     width: 185px;
@@ -416,6 +473,9 @@ footer h3{
     text-align: center;
     font-size: 1.3rem;
     font-weight: 500;
+
+    -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 
@@ -453,6 +513,118 @@ footer h3{
 
 
 /*keyframes*/
+/* first-btn-gmail */
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* arrow down */
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+
+/* skills and info */
+@-webkit-keyframes slide-fwd-top {
+  0% {
+    -webkit-transform: translateZ(0) translateY(100px);
+            transform: translateZ(0) translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateZ(160px) translateY(0);
+            transform: translateZ(160px) translateY(0);
+  }
+}
+@keyframes slide-fwd-top {
+  0% {
+    -webkit-transform: translateZ(0) translateY(100px);
+            transform: translateZ(0) translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateZ(160px) translateY(0);
+            transform: translateZ(160px) translateY(0);
+  }
+}
+
+/* employment section */
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+/* network section */
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+
 
 /* social icons */
 @-webkit-keyframes shadow-pop-bl {
