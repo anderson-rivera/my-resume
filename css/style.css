@@ -251,10 +251,61 @@ header{
     -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+/* section about me */
+.sec-1-5{
+    background: #55a5eb11;
+    margin: 4.8rem 0;
+    padding: 2rem 0;
+}
+.sec-1-5 .h2-back h2{
+    color: #0870D1;
+    font-weight: 700;
+    text-decoration: underline;
+    -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.sec-1-5 .text-1 p, .sec-1-5 .text-2 p{
+    font-size: 1.3rem;
+    font-weight: 500;
+     -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.sec-1-5 .text-1 p span.profsn{
+    font-weight: 700;
+    color: #054887;
+}
+.sec-1-5 .text-2 p span.typesw{
+    font-style: italic;
+    color: #06579E;;
+}
+.sec-1-5 .text-2 p span.typesoth{
+    font-weight: 600;
+    color: #0870D1;
+}
+.sec-1-5 .who{
+    margin-bottom: 1rem;
+}
+
+/* icon */
+.icons{
+    margin: 6rem 0;
+}
+.icons .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons .icon img{
+    -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
 /* Employment */
 .sec2{
     margin-top: 4rem;
-    background: rgb(247, 244, 244);
+    background: rgba(247, 244, 244, 0.87);
     padding: 2rem 0;
 }
 .employ-title{
@@ -402,10 +453,11 @@ header{
 }
 .contact-by h3{
     text-align: center;
+    color: #0870D1;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2rem;
-
+    
     -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
