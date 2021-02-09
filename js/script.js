@@ -16,3 +16,17 @@ function up_function(){
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
 };
+
+
+
+//btn mail
+const btnMail = document.getElementById('btn-mail');
+const btnMail2 = document.getElementById('btn-mail-2');
+
+//add function for click action
+btnMail.addEventListener('click' , mailClick);
+btnMail2.addEventListener('click' , mailClick);
+//click
+function mailClick(){
+    window.location.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=afrm2910@gmail.com';
+}
