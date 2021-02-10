@@ -254,7 +254,7 @@ header{
 /* section about me */
 .sec-1-5{
     background: #55a5eb11;
-    margin: 4.8rem 0;
+    margin: 6.8rem 0;
     padding: 2rem 0;
 }
 .sec-1-5 .h2-back h2{
@@ -288,7 +288,7 @@ header{
 
 /* icon */
 .icons{
-    margin: 6rem 0;
+    margin: 7rem 0;
 }
 .icons .icon{
     display: flex;
@@ -562,6 +562,80 @@ footer h3{
 
 
 /*mediaquery*/
+/* mobile media */
+@media only screen and (max-width: 325px){
+    .sec1 .title .dyd h1 {
+    font-size: 1.2rem !important;
+    }
+    .contact-by h3 {
+        font-size: 1.8rem !important;
+    }
+    
+}
+
+@media only screen and (max-width: 490px){
+    .gtop i {
+        font-size: 2.1rem;
+    }
+    .sec1 .title .dyd h1 {
+        font-size: 1.4rem;
+    }
+    .sec1 .title .case i {
+        font-size: 1.4rem;
+    }
+    .sec1 .arrow-down i {
+        font-size: 2rem;
+    }
+    .info-title{
+        margin: 4rem 0 0 0;
+    }
+    .info-title .info-lyst ul {
+        text-align: center;
+    }
+    .sec-1-5 {
+        margin: 4.8rem 0;
+    }
+    .sec-1-5>.container>.row{
+        padding: 0 15px;
+    }
+    .sec-1-5 .text-1 p, .sec-1-5 .text-2 p {
+        font-size: 1.2rem;
+    }
+    .sec-1-5 .text-1 p{
+        margin-bottom: 30px;
+    }
+    .icons{
+        margin: 4rem 0;
+    }
+    .icon{
+        margin: 40px 0;
+    }
+    .feed{
+        padding: 0 10px;
+    }
+    .image-brand img{
+        display: none;
+    }
+    .networks-title>.row>.col-12{
+        padding: 0 0 0 18px;
+    }
+    .social-icons{
+        display: block;
+    }
+    .social-icons ul{
+        width: auto;
+        display: block;
+    }
+    .social-icons ul li a {
+        font-size: 3.6rem;
+    }
+    .qr-container{
+        flex-wrap: wrap;
+    }
+
+}
+
+
 @media only screen and (max-width: 1024px){
     .mail-picture button.mail:hover{
     background: none;
