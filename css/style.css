@@ -120,7 +120,7 @@ header{
     position: fixed;
     right: 1.5rem;
     bottom: 1.5rem;
-    z-index: 99;
+    z-index: 98;
 }
 /* delete outline after click */
 .gtop:active{
@@ -205,7 +205,7 @@ header{
     margin-top: 0.8rem;
 }
 .skills-title .plus i{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #054887;
 
     -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -251,6 +251,110 @@ header{
     -webkit-animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-fwd-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+/* modal */
+.my-modal-wrapper{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.418);
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s all;
+}
+.my-modal-wrapper.active{
+    display: flex;
+}
+.my-modal{
+    display: block;
+    width: 97%;
+    height: auto;
+    margin: 0 auto;
+    background: rgb(5,72,135);
+    background: linear-gradient(175deg, rgba(5,72,135,1) 0%, rgba(15,35,83,1) 88%);
+    box-shadow: 1px 3px 8px 0px rgba(0,0,0,0.87);
+    border: 3px solid #bababe;
+    border-radius: 15px;
+
+    -webkit-animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.my-modal-header{
+    max-width: 95%;
+    height: auto;
+    border-bottom: 2px solid #bababe;
+    margin-bottom: 30px;
+}
+.my-modal-h-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+.my-modal-h-title h2{ 
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+.my-modal-h-close{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.my-modal-h-close button{
+    background: none;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    padding: 3px 5px;
+    border-radius: 11px;
+}
+.my-modal-h-close button:active{
+    outline: none;
+}
+.my-modal-h-close button:focus{
+    outline: none;
+}
+.my-modal-h-close button i{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.sk-con{    
+    width: 95%;
+    height: auto;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 1rem;
+}
+.sk-lyst{
+    border-right: 1px solid #fff;
+}
+.sk-lyst:last-child{
+    border-right: none;
+}
+.sk-lyst ul li{
+    margin: 25px 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.my-modal-footer{
+    width: 95%;
+    height: 20px;
+    padding: 1.3rem 0;
+    border-top: 2px solid #bababe;
+    margin: 0 auto;
+}
+
+
+
+
 /* section about me */
 .sec-1-5{
     background: #55a5eb11;
@@ -588,6 +692,7 @@ footer h3{
     }
     .info-title{
         margin: 4rem 0 0 0;
+        border: none;
     }
     .info-title .info-lyst ul {
         text-align: center;
@@ -632,15 +737,37 @@ footer h3{
     .qr-container{
         flex-wrap: wrap;
     }
+    .my-modal{
+        height: 382px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .my-modal-header, .my-modal-footer{
+        width: 91%;
+    }
+    .sk-con{
+        padding: 0;
+    }
+    .sk-lyst{
+        border-right: none;
+        margin-top: -1rem;
+    }
+    .sk-lyst ul li {
+        font-size: 1.5rem !important;
+    }
 
 }
 
 
 @media only screen and (max-width: 1024px){
     .mail-picture button.mail:hover{
-    background: none;
-    border: 3px solid #fff;
-}
+        background: none;
+        border: 3px solid #fff;
+    }
+    .sk-lyst ul li {
+        font-size: 1.2rem;
+    }
+
 }
 
 @media only screen and (min-width: 1240px) {

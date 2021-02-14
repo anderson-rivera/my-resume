@@ -30,3 +30,25 @@ btnMail2.addEventListener('click' , mailClick);
 function mailClick(){
     window.location.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=afrm2910@gmail.com';
 }
+
+
+
+
+//modal
+const modal = document.getElementById('myModal');
+const openModal = document.getElementById('plus');
+const closeModal = document.getElementById('closeModal');
+const bodyPage = document.getElementById('bodyPage');
+
+openModal.addEventListener('click' , openModalF);
+closeModal.addEventListener('click' , closeModalF);
+    
+function openModalF(){
+    modal.classList.add('active');
+    window.scrollTo(0, 400);
+    bodyPage.style.overflow = 'hidden'; 
+};
+function closeModalF(){
+    modal.classList.remove('active');
+    bodyPage.style.overflow = 'auto';
+};
