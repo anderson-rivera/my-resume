@@ -52,3 +52,7 @@ function closeModalF(){
     modal.classList.remove('active');
     bodyPage.style.overflow = 'auto';
 };
+
+
+
+
