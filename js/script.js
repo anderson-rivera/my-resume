@@ -10,6 +10,7 @@ window.onscroll = function(){
     }
 };
 
+
 //function for click bnt-top
 btnUp.addEventListener('click' , up_function);
 function up_function(){
