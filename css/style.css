@@ -896,6 +896,9 @@ footer h3{
     .social-icons ul li a {
         font-size: 3.6rem;
     }
+    .img-my-company-container{
+        display: none;
+    }
     .qr-container{
         flex-wrap: wrap;
         margin-top: 4rem !important;
