@@ -558,7 +558,7 @@ body.dark .employ-title .right-arrow i{
     margin-bottom: 1.8rem;
 }
 .feed h3{
-    margin-bottom: 0.6rem;
+    margin-bottom: 1.6rem;
     color: #0870D1;
     font-weight: 600;
 
@@ -605,6 +605,13 @@ body.dark .feed p{
 
     -webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.img-my-company-container{
+    margin-left: 3rem;
+}
+.img-my-company-container img{
+    width: 88px;
 }
 
 /*  skew div */
@@ -884,6 +891,7 @@ footer h3{
     .social-icons ul{
         width: auto;
         display: block;
+        text-align: center;
     }
     .social-icons ul li a {
         font-size: 3.6rem;
