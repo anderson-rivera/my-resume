@@ -926,6 +926,10 @@ footer h3{
     .sk-lyst ul li {
         font-size: 1.5rem !important;
     }
+    .qr-text h4{
+        text-align: center;
+    }
+
 
 }
 
@@ -945,10 +949,7 @@ footer h3{
    .dark-cont {
         padding-right: 8rem;
     }
-    .qr-text h4{
-        text-align: center;
-    }
-
+    
 }
 @media only screen and (min-width: 1920px){
     .dark-cont {
