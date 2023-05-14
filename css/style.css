@@ -197,9 +197,10 @@ body.dark .dark-cont .dark-wrapper button{
     outline: none;
 }
 .gtop i{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     cursor: pointer;
+    padding: .5rem;
 }
 
 /* Info section */
