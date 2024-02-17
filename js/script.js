@@ -1,3 +1,4 @@
+/*
 //btn go to top
 const btnUp = document.getElementById('gtop');
 
@@ -54,6 +55,6 @@ function closeModalF(){
     bodyPage.style.overflow = 'auto';
 };
 
-
+*/
 
 
