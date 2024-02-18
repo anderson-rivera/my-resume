@@ -18,7 +18,7 @@ function up_function(){
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0;
 };
-
+*/
 
 
 //btn mail
@@ -55,6 +55,6 @@ function closeModalF(){
     bodyPage.style.overflow = 'auto';
 };
 
-*/
+
 
 
