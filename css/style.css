@@ -99,7 +99,7 @@ header{
 .mail-picture .picture img{
     width: 155px;
     box-shadow: -3px 4px 43px -23px rgba(0,0,0,0.88);
-    border-radius: 1rem;
+    border-radius: 10rem;
 }
 body.dark .mail-picture .picture img{
     box-shadow: -3px 4px 43px -23px rgba(158, 158, 158, 0.88);
